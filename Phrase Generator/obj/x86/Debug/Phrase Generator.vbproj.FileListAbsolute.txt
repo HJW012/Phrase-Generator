@@ -1,0 +1,22 @@
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.exe
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.pdb
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.xml
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.vbproj.GenerateResource.Cache
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.exe
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.xml
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.pdb
+C:\Users\Phillip Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.exe.config
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.exe.config
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.exe
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.xml
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.pdb
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.exe
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.pdb
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\bin\Debug\Phrase Generator.xml
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Harrison_Wittke\Dropbox\PERSONAL PROGRAMMING\VISUAL BASIC\Phrase Generator\Phrase Generator\obj\x86\Debug\Phrase Generator.vbproj.GenerateResource.Cache

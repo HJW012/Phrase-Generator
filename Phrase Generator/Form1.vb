@@ -10,19 +10,23 @@
     Dim rnd1 As Integer
     Dim rnd2 As Integer
     Dim rnd3 As Integer
+    Public audio As Boolean
 
     Dim txtY As Integer = 10
 
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         populateArrays()
-        lblOutput.Text = String.Empty
+        txtOutput.Text = String.Empty
     End Sub
 
     Private Sub btnGenerate_Click(sender As System.Object, e As System.EventArgs) Handles btnGenerate.Click
         randomize()
         output = "Well " & verbs(rnd1) & " me " & adjectives(rnd2) & " and call me " & names(rnd3) & "."
-        lblOutput.Text = output
+        txtOutput.Text = output
         'newTextbox()
+        If audio Or My.Settings.Audio = CheckState.Checked Then
+            My.Computer.Audio.Play(My.Resources.button_sound, AudioPlayMode.Background)
+        End If
     End Sub
 
     'USER DEFINES SUBS

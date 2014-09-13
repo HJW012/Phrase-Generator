@@ -24,66 +24,92 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.btnGenerate = New System.Windows.Forms.Button()
-        Me.lblOutput = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.lnklbl = New System.Windows.Forms.LinkLabel()
         Me.picSettings = New System.Windows.Forms.PictureBox()
+        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.txtOutput = New System.Windows.Forms.TextBox()
         CType(Me.picSettings, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnGenerate
         '
-        Me.btnGenerate.Location = New System.Drawing.Point(359, 474)
+        Me.btnGenerate.Location = New System.Drawing.Point(421, 114)
         Me.btnGenerate.Name = "btnGenerate"
-        Me.btnGenerate.Size = New System.Drawing.Size(142, 23)
+        Me.btnGenerate.Size = New System.Drawing.Size(142, 25)
         Me.btnGenerate.TabIndex = 0
         Me.btnGenerate.Text = "Generate Phrase"
         Me.btnGenerate.UseVisualStyleBackColor = True
-        '
-        'lblOutput
-        '
-        Me.lblOutput.AutoSize = True
-        Me.lblOutput.Font = New System.Drawing.Font("Impact", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOutput.Location = New System.Drawing.Point(303, 236)
-        Me.lblOutput.Name = "lblOutput"
-        Me.lblOutput.Size = New System.Drawing.Size(87, 35)
-        Me.lblOutput.TabIndex = 1
-        Me.lblOutput.Text = "Label1"
         '
         'Timer1
         '
         Me.Timer1.Enabled = True
         '
-        'LinkLabel1
+        'lnklbl
         '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(732, 677)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(77, 17)
-        Me.LinkLabel1.TabIndex = 3
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "LinkLabel1"
+        Me.lnklbl.AutoSize = True
+        Me.lnklbl.Location = New System.Drawing.Point(794, 324)
+        Me.lnklbl.Name = "lnklbl"
+        Me.lnklbl.Size = New System.Drawing.Size(77, 17)
+        Me.lnklbl.TabIndex = 3
+        Me.lnklbl.TabStop = True
+        Me.lnklbl.Text = "LinkLabel1"
         '
         'picSettings
         '
         Me.picSettings.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picSettings.Image = Global.WindowsApplication1.My.Resources.Resources.settingson
-        Me.picSettings.Location = New System.Drawing.Point(65, 572)
+        Me.picSettings.Location = New System.Drawing.Point(127, 212)
         Me.picSettings.Name = "picSettings"
         Me.picSettings.Size = New System.Drawing.Size(20, 20)
         Me.picSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.picSettings.TabIndex = 4
         Me.picSettings.TabStop = False
         '
+        'ShapeContainer1
+        '
+        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer1.Name = "ShapeContainer1"
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape1})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(937, 559)
+        Me.ShapeContainer1.TabIndex = 5
+        Me.ShapeContainer1.TabStop = False
+        '
+        'RectangleShape1
+        '
+        Me.RectangleShape1.BorderColor = System.Drawing.Color.Transparent
+        Me.RectangleShape1.FillColor = System.Drawing.Color.Silver
+        Me.RectangleShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.RectangleShape1.Location = New System.Drawing.Point(281, 209)
+        Me.RectangleShape1.Name = "RectangleShape1"
+        Me.RectangleShape1.Size = New System.Drawing.Size(622, 87)
+        '
+        'txtOutput
+        '
+        Me.txtOutput.BackColor = System.Drawing.Color.Silver
+        Me.txtOutput.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtOutput.Font = New System.Drawing.Font("Impact", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOutput.Location = New System.Drawing.Point(281, 233)
+        Me.txtOutput.Name = "txtOutput"
+        Me.txtOutput.ReadOnly = True
+        Me.txtOutput.Size = New System.Drawing.Size(623, 37)
+        Me.txtOutput.TabIndex = 6
+        Me.txtOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1234, 727)
+        Me.ClientSize = New System.Drawing.Size(937, 559)
+        Me.Controls.Add(Me.txtOutput)
         Me.Controls.Add(Me.picSettings)
-        Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.lblOutput)
+        Me.Controls.Add(Me.lnklbl)
         Me.Controls.Add(Me.btnGenerate)
+        Me.Controls.Add(Me.ShapeContainer1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Phrase Generator"
         CType(Me.picSettings, System.ComponentModel.ISupportInitialize).EndInit()
@@ -92,9 +118,11 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents btnGenerate As System.Windows.Forms.Button
-    Friend WithEvents lblOutput As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents lnklbl As System.Windows.Forms.LinkLabel
     Friend WithEvents picSettings As System.Windows.Forms.PictureBox
+    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
+    Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents txtOutput As System.Windows.Forms.TextBox
 
 End Class
