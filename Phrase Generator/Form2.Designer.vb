@@ -29,6 +29,8 @@ Partial Class Form2
         Me.chboxMusic = New System.Windows.Forms.CheckBox()
         Me.tooltipMusic = New System.Windows.Forms.ToolTip(Me.components)
         Me.tooltipExplicit = New System.Windows.Forms.ToolTip(Me.components)
+        Me.chboxSpeech = New System.Windows.Forms.CheckBox()
+        Me.tooltipSpeech = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'chboxAudio
@@ -55,10 +57,7 @@ Partial Class Form2
         '
         'tooltipSounds
         '
-        Me.tooltipSounds.AutomaticDelay = 50
-        Me.tooltipSounds.AutoPopDelay = 5000
-        Me.tooltipSounds.InitialDelay = 50
-        Me.tooltipSounds.ReshowDelay = 10
+        Me.tooltipSounds.AutomaticDelay = 300
         Me.tooltipSounds.ToolTipTitle = "Sound Effects"
         '
         'chboxMusic
@@ -74,19 +73,36 @@ Partial Class Form2
         '
         'tooltipMusic
         '
-        Me.tooltipMusic.AutomaticDelay = 50
+        Me.tooltipMusic.AutomaticDelay = 300
         Me.tooltipMusic.ToolTipTitle = "Music"
         '
         'tooltipExplicit
         '
-        Me.tooltipExplicit.AutomaticDelay = 50
+        Me.tooltipExplicit.AutomaticDelay = 300
         Me.tooltipExplicit.ToolTipTitle = "Explicit Content"
+        '
+        'chboxSpeech
+        '
+        Me.chboxSpeech.AutoSize = True
+        Me.chboxSpeech.Location = New System.Drawing.Point(228, 243)
+        Me.chboxSpeech.Name = "chboxSpeech"
+        Me.chboxSpeech.Size = New System.Drawing.Size(78, 21)
+        Me.chboxSpeech.TabIndex = 3
+        Me.chboxSpeech.Text = "Speech"
+        Me.tooltipSpeech.SetToolTip(Me.chboxSpeech, "Enable or disable the text-to-speech feature")
+        Me.chboxSpeech.UseVisualStyleBackColor = True
+        '
+        'tooltipSpeech
+        '
+        Me.tooltipSpeech.AutomaticDelay = 300
+        Me.tooltipSpeech.ToolTipTitle = "Speech"
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(625, 396)
+        Me.Controls.Add(Me.chboxSpeech)
         Me.Controls.Add(Me.chboxMusic)
         Me.Controls.Add(Me.chboxExplicit)
         Me.Controls.Add(Me.chboxAudio)
@@ -105,4 +121,6 @@ Partial Class Form2
     Friend WithEvents tooltipExplicit As System.Windows.Forms.ToolTip
     Friend WithEvents chboxMusic As System.Windows.Forms.CheckBox
     Friend WithEvents tooltipMusic As System.Windows.Forms.ToolTip
+    Friend WithEvents chboxSpeech As System.Windows.Forms.CheckBox
+    Friend WithEvents tooltipSpeech As System.Windows.Forms.ToolTip
 End Class

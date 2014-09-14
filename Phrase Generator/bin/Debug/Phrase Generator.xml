@@ -19,6 +19,10 @@ PhraseGenerator
 	<summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.settings">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

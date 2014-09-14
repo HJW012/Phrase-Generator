@@ -65,18 +65,6 @@ Namespace My
                 Me("Audio") = value
             End Set
         End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property Music() As String
-            Get
-                Return CType(Me("Music"),String)
-            End Get
-            Set
-                Me("Music") = value
-            End Set
-        End Property
     End Class
 End Namespace
 
